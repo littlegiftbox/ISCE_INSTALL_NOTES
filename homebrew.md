@@ -4,7 +4,7 @@ If you are using Homebrew for ISCE installation (works for 2.1.0 and 2.2.0)...
 Some helpful notes:
 1. make sure brew-installed python are linked correctly 
 2. make sure brew-installed gcc are linked correctly
-3. for c++ libraries, use brew ones in "/usr/local/Cellar*" instead of "/usr/local/gfortran/bin"
+3. for c++ libraries, use brew ones in "/usr/local/Cellar*" instead of "/usr/local/gfortran/lib"
 4. before do "scons install", delete your build folder "\rm -rf config.log .sconsign.dblite .sconf_temp build/", also delete your install folder (important, sometimes if the files exists it will not overwrite)
 5. install scipy using "pip3 install scipy"
 
